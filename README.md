@@ -6,11 +6,12 @@
 
 Execute the following commands in the terminal:
 
-``` 
+```
 npx create-react-app paint-app 
 cd paint-app
 npm install --save roughjs
 npm install bootstrap
+npm install reactcss
 ```
 Our next step is to create a folder named “components” in folder src. Here all the components being rendered will be created.
 
