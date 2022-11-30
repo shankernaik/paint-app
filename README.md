@@ -23,7 +23,6 @@ We are going to draw four shapes : Circle , Square , Triangle , Hexagon.
 And a Pencil ,Rubber and Line.
 ![pencil,rubber,line](documentation/Picture3.png)
 ### Wireframe of the Paint App
-Below image is the low fidelity wireframe of the app.
-![wireframe](documentation/Picture4.png)
+![wireframe](documentation/Picture5.png)
 
 
