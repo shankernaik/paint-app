@@ -22,18 +22,24 @@ export default function SideNav({
   return (
     <div>
       <div className="row">
+      <div
+      className="col-md-1"
+      style={{
+        backgroundColor: "#d8d8d8",
+        width: "100%",
+        height: `${window.innerHeight * 0.073 * 0.9}px`,
+        position: "absolute"
+      }}
+      />
+
         <div
           className="col-md-1 icon-bar"
           style={{
+            paddingTop: "20px",
             position: "absolute",
-            backgroundColor: "#f3f3f3",
-            height: `${window.innerHeight * 0.09 * 6}px`,
+            backgroundColor: "#d8d8d8",
+            height:"100%",
             width: `${window.innerWidth * 0.073 * 0.8}px`,
-            left: "2px",
-            top: `${
-              (window.innerHeight - window.innerHeight * 0.09 * 6) / 2
-            }px`,
-            borderRadius: "10px",
           }}
         >
           <button
@@ -126,6 +132,30 @@ export default function SideNav({
             <Eraser toolType={toolType} colorWidth={colorWidth} />
           </button>
         </div>
+
+        <div
+      className="col-md-1"
+      style={{
+        backgroundColor: "#d8d8d8",
+        width: "100%",
+        height: `${window.innerHeight * 0.073 * 0.9}px`,
+        position: "absolute",
+        bottom: "0"
+        
+      }}
+      />
+
+<div
+      className="col-md-1"
+      style={{
+        backgroundColor: "#d8d8d8",
+        height:"100%",
+        width: `${window.innerWidth * 0.073 * 0.5}px`,
+        position: "absolute",
+        right: "0"
+        
+      }}
+      />
 
       </div>
     </div>
