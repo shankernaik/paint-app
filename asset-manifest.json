@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/paint-app/static/css/main.17ad4ea6.css",
+    "main.js": "/paint-app/static/js/main.bf7ede8d.js",
+    "static/js/787.222789db.chunk.js": "/paint-app/static/js/787.222789db.chunk.js",
+    "index.html": "/paint-app/index.html",
+    "main.17ad4ea6.css.map": "/paint-app/static/css/main.17ad4ea6.css.map",
+    "main.bf7ede8d.js.map": "/paint-app/static/js/main.bf7ede8d.js.map",
+    "787.222789db.chunk.js.map": "/paint-app/static/js/787.222789db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17ad4ea6.css",
+    "static/js/main.bf7ede8d.js"
+  ]
+}
