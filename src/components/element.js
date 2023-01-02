@@ -1,4 +1,5 @@
-import rough from "roughjs/bundled/rough.esm";
+// import rough from "roughjs/bundled/rough.esm";
+const rough = require('roughjs/bundled/rough.cjs')
 const generator = rough.generator();
 
 export function createElement(id, x1, y1, x2, y2, type, width, strokeColor) {
@@ -40,6 +41,7 @@ export function createElement(id, x1, y1, x2, y2, type, width, strokeColor) {
           strokeWidth: width,
         }
       );
+    
       break;
 
 

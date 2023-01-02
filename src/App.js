@@ -1,14 +1,17 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import SideNav from "./components/SideNav";
-import rough from "roughjs/bundled/rough.esm";
+// import rough from "roughjs/bundled/rough.esm";
+
 import {
   createElement,
   adjustElementCoordinates,
   midPointBtw,
 } from "./components/element";
 
-function App() {
+const rough = require('roughjs/bundled/rough.cjs')
+
+ function App() {
   const [points, setPoints] = useState([]);
   const [path, setPath] = useState([]);
   const [isDrawing, setIsDrawing] = useState(false);
@@ -284,7 +287,8 @@ function App() {
       />
       <canvas
         id="canvas"
-        className="App"
+         className="App"
+         title="drawing"
         width={window.innerWidth}
         height={window.innerHeight}
         onMouseDown={handleMouseDown}
