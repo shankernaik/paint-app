@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { styles } from "../theme/styles";
 import {
   Line,
@@ -125,7 +125,7 @@ export default function SideNav({
             style={styles.righticons}
             onClick={() => {
               setToolType("eraser");
-              setWidth(10);
+              setWidth(1);
               setShapeWidth(1);
             }}
           >

@@ -1,0 +1,296 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing snapshot for App component 1`] = `
+<div>
+  <div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-1"
+        style={
+          Object {
+            "backgroundColor": "#d8d8d8",
+            "height": "50.45759999999999px",
+            "position": "absolute",
+            "width": "100%",
+          }
+        }
+      />
+      <div
+        className="col-md-1 icon-bar"
+        style={
+          Object {
+            "backgroundColor": "#d8d8d8",
+            "height": "100%",
+            "paddingTop": "20px",
+            "position": "absolute",
+            "width": "59.8016px",
+          }
+        }
+      >
+        <button
+          data-placement="top"
+          data-toggle="tooltip"
+          id="line"
+          onClick={[Function]}
+          style={
+            Object {
+              "MozBorderRadius": "0.1%",
+              "OBorderRadius": "0.1%",
+              "WebkitBorderRadius": "0.1%",
+              "background": "none",
+              "border": "none",
+              "borderRadius": "0.1%",
+              "height": "69.12px",
+              "msBorderRadius": "0.1%",
+              "outline": "none",
+              "padding": "0.5%",
+              "width": "51.2px",
+            }
+          }
+          title="Line"
+        >
+          <svg
+            data-testid="line"
+            fill="none"
+            height="30%"
+            viewBox="0 0 40 54"
+            width="30%"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30.748 8.00092C29.91 6.24421 30.329 4.11767 31.7535 2.91571C33.2618 1.6213 35.3567 1.71376 36.7813 3.10063C38.122 4.4875 38.3734 6.61404 37.4516 8.37075C36.3623 10.2199 34.435 10.6822 32.0887 9.57271C24.1281 21.3149 16.2513 33.0571 8.37446 44.7068C9.21242 45.6314 9.7152 46.6485 9.6314 47.9429C9.5476 49.5147 8.87724 50.7166 7.6203 51.4563C6.44716 52.196 5.10642 52.196 3.93328 51.3638C1.75459 49.977 1.33561 46.9258 3.09532 44.9842C3.93328 44.0596 5.02263 43.5973 6.19577 43.7823C6.53095 43.7823 6.61475 43.6898 6.78234 43.5049C10.1342 38.6046 13.4022 33.7968 16.6703 28.9889C21.279 22.147 25.8878 15.3051 30.4966 8.37075C30.5804 8.27829 30.6642 8.18583 30.748 8.00092Z"
+              fill="#5B5858"
+              stroke="#5B5858"
+              strokeMiterlimit="10"
+              strokeWidth="4"
+            />
+          </svg>
+        </button>
+        <button
+          data-placement="top"
+          data-toggle="tooltip"
+          id="rectangle"
+          onClick={[Function]}
+          style={
+            Object {
+              "MozBorderRadius": "0.1%",
+              "OBorderRadius": "0.1%",
+              "WebkitBorderRadius": "0.1%",
+              "background": "none",
+              "border": "none",
+              "borderRadius": "0.1%",
+              "height": "69.12px",
+              "msBorderRadius": "0.1%",
+              "outline": "none",
+              "padding": "0.5%",
+              "width": "51.2px",
+            }
+          }
+          title="Rectangle"
+        >
+          <svg
+            data-testid="rectangle"
+            fill="none"
+            height="25%"
+            viewBox="0 0 53 40"
+            width="25%"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M26.6 0C34.3 0 42 0 49.7 0C53 0 53 0.0999999 53 3.5C53 14.7 53 25.8 53 37C53 39.4 52.6 39.8 50.2 39.8C34.4 39.8 18.6 39.8 2.8 39.8C0.5 39.8 0 39.4 0 37.1C0 25.6 0 14.1 0 2.7C0 0.3 0.3 0 2.8 0C10.7 0 18.6 0 26.6 0Z"
+              fill="#5B5858"
+            />
+          </svg>
+        </button>
+        <button
+          data-placement="top"
+          data-toggle="tooltip"
+          id="circle"
+          onClick={[Function]}
+          style={
+            Object {
+              "MozBorderRadius": "0.1%",
+              "OBorderRadius": "0.1%",
+              "WebkitBorderRadius": "0.1%",
+              "background": "none",
+              "border": "none",
+              "borderRadius": "0.1%",
+              "height": "69.12px",
+              "msBorderRadius": "0.1%",
+              "outline": "none",
+              "padding": "0.5%",
+              "width": "51.2px",
+            }
+          }
+          title="Circle"
+        >
+          <svg
+            data-testid="circle"
+            fill="none"
+            height="30%"
+            viewBox="0 0 54 54"
+            width="30%"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M26.9 53.9C11.9 53.9 0 41.9 0 26.8C0 12.1 12.1 0 26.9 0C41.8 0 53.9 12.1 53.9 27.1C53.8 41.9 41.8 53.9 26.9 53.9Z"
+              fill="#5B5858"
+            />
+          </svg>
+        </button>
+        <button
+          data-placement="top"
+          data-toggle="tooltip"
+          id="triangle"
+          onClick={[Function]}
+          style={
+            Object {
+              "MozBorderRadius": "0.1%",
+              "OBorderRadius": "0.1%",
+              "WebkitBorderRadius": "0.1%",
+              "background": "none",
+              "border": "none",
+              "borderRadius": "0.1%",
+              "height": "69.12px",
+              "msBorderRadius": "0.1%",
+              "outline": "none",
+              "padding": "0.5%",
+              "width": "51.2px",
+            }
+          }
+          title="Triangle"
+        >
+          <svg
+            data-testid="triangle"
+            fill="none"
+            height="30%"
+            viewBox="0 0 54 53"
+            width="30%"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M26.2822 52.8C18.3822 52.8 10.5822 52.8 2.68223 52.8C-0.117766 52.8 -0.617766 51.9 0.682234 49.4C8.58223 33.5 16.4822 17.6 24.4822 1.7C24.8822 1 25.7822 0 26.4822 0C27.1822 0 28.0822 1 28.4822 1.7C36.4822 17.6 44.3822 33.4 52.3822 49.3C53.6822 51.8 53.0822 52.7 50.3822 52.7C42.2822 52.8 34.2822 52.8 26.2822 52.8Z"
+              fill="#5B5858"
+            />
+          </svg>
+        </button>
+        <button
+          data-placement="top"
+          data-toggle="tooltip"
+          id="pencil"
+          onClick={[Function]}
+          style={
+            Object {
+              "MozBorderRadius": "0.1%",
+              "OBorderRadius": "0.1%",
+              "WebkitBorderRadius": "0.1%",
+              "background": "none",
+              "border": "none",
+              "borderRadius": "0.1%",
+              "height": "69.12px",
+              "msBorderRadius": "0.1%",
+              "outline": "none",
+              "padding": "0.5%",
+              "width": "51.2px",
+            }
+          }
+          title="Pencil"
+        >
+          <svg
+            data-testid="pencil"
+            fill="none"
+            height="20%"
+            viewBox="0 0 11 54"
+            width="20%"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11 20.8718C11 26.6068 11 32.2479 11 37.9829C11 38.641 10.812 38.8291 10.1538 38.8291C7.05128 38.8291 3.94872 38.8291 0.846154 38.8291C0.282051 38.8291 0 38.735 0 38.0769C0.0940171 26.6068 0.0940171 15.2308 0.0940171 3.76068C0.0940171 1.41026 1.59829 0 3.8547 0C4.98291 0 6.01709 0 7.1453 0C9.49573 0 11 1.41026 11 3.8547C11 7.99145 11 12.0342 11 16.1709C11 17.7692 11 19.2735 11 20.8718Z"
+              fill="#000"
+            />
+            <path
+              d="M1.31622 40.2393H9.58973C10.1538 40.2393 10.5299 40.8034 10.3419 41.2735C8.83759 45.5043 7.33332 49.735 5.82904 53.9658C5.73503 54.1539 5.45297 54.1539 5.35896 53.9658C3.85468 49.641 2.25639 45.3162 0.75212 40.9915C0.564086 40.6154 0.846137 40.2393 1.31622 40.2393Z"
+              fill="#000"
+            />
+          </svg>
+        </button>
+        <button
+          data-placement="top"
+          data-toggle="tooltip"
+          id="eraser"
+          onClick={[Function]}
+          style={
+            Object {
+              "MozBorderRadius": "0.1%",
+              "OBorderRadius": "0.1%",
+              "WebkitBorderRadius": "0.1%",
+              "background": "none",
+              "border": "none",
+              "borderRadius": "0.1%",
+              "height": "69.12px",
+              "msBorderRadius": "0.1%",
+              "outline": "none",
+              "padding": "0.5%",
+              "width": "51.2px",
+            }
+          }
+          title="Eraser"
+        >
+          <svg
+            data-testid="eraser"
+            fill="none"
+            height="30%"
+            viewBox="0 0 45 46"
+            width="30%"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M17.3576 45.3955C15.7324 45.3955 14.2087 44.7862 12.8881 43.5675C9.12968 39.9115 5.47282 36.1539 1.71437 32.3964C-0.621964 30.0606 -0.520384 25.8968 1.71437 23.4595C2.12069 23.0533 2.52701 22.6471 2.93332 22.2408C9.536 15.6397 16.1387 9.03861 22.6398 2.53906C23.8587 1.21883 25.3824 0.507944 27.2109 0.406389C29.1409 0.304833 30.8677 0.914167 32.2898 2.23439C35.8451 5.78883 39.4004 9.34328 42.9557 12.9993C44.1747 14.2179 44.8857 15.6397 44.9873 17.2646C45.0889 18.9911 44.581 20.6159 43.4636 22.0377C43.1589 22.4439 42.8541 22.7486 42.4478 23.0533C35.8451 29.7559 29.1409 36.4586 22.4366 43.2628C21.0145 44.5831 19.3892 45.3955 17.3576 45.3955ZM15.9355 16.2491C12.3802 19.7019 8.92652 23.1548 5.47282 26.7093C5.26966 26.9124 5.0665 27.3186 4.96492 27.6233C4.76176 28.4357 5.0665 28.9435 5.67597 29.5528C9.12968 33.0057 12.5834 36.4586 16.0371 39.81C17.1545 40.9271 18.0687 40.9271 19.1861 39.81C22.4366 36.5602 25.7887 33.2088 29.0393 29.9591C29.1409 29.8575 29.2425 29.7559 29.344 29.6544C24.7729 25.0844 20.3034 20.6159 15.9355 16.2491Z"
+              fill="#5B5858"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        className="col-md-1"
+        style={
+          Object {
+            "backgroundColor": "#d8d8d8",
+            "bottom": "0",
+            "height": "50.45759999999999px",
+            "position": "absolute",
+            "width": "100%",
+          }
+        }
+      />
+      <div
+        className="col-md-1"
+        style={
+          Object {
+            "backgroundColor": "#d8d8d8",
+            "height": "100%",
+            "position": "absolute",
+            "right": "0",
+            "width": "37.376px",
+          }
+        }
+      />
+    </div>
+  </div>
+  <canvas
+    className="App"
+    height={768}
+    id="canvas"
+    onMouseDown={[Function]}
+    onMouseMove={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    title="drawing"
+    width={1024}
+  />
+</div>
+`;

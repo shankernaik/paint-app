@@ -3,6 +3,7 @@ import React from "react";
 export function Line({ toolType, colorWidth }) {
   return (
     <svg
+      data-testid="line"
       width="30%"
       height="30%"
       viewBox="0 0 40 54"
@@ -23,6 +24,7 @@ export function Line({ toolType, colorWidth }) {
 export function Circle({ toolType, colorWidth }) {
   return (
     <svg
+     data-testid="circle"
       width="30%"
       height="30%"
       viewBox="0 0 54 54"
@@ -39,6 +41,7 @@ export function Circle({ toolType, colorWidth }) {
 export function Rectangle({ toolType, colorWidth }) {
   return (
     <svg
+     data-testid="rectangle"
       width="25%"
       height="25%"
       viewBox="0 0 53 40"
@@ -55,6 +58,7 @@ export function Rectangle({ toolType, colorWidth }) {
 export function Triangle({ toolType, colorWidth }) {
   return (
     <svg
+     data-testid="triangle"
       width="30%"
       height="30%"
       viewBox="0 0 54 53"
@@ -71,6 +75,7 @@ export function Triangle({ toolType, colorWidth }) {
 export function Pencil({ toolType, colorWidth }) {
   return (
     <svg
+     data-testid="pencil"
       width={window.innerWidth <= 1024 ? "20%" : "40%"}
       height={window.innerWidth <= 1024 ? "20%" : "40%"}
       viewBox="0 0 11 54"
@@ -92,6 +97,7 @@ export function Pencil({ toolType, colorWidth }) {
 export function Eraser({ toolType, colorWidth }) {
   return (
     <svg
+     data-testid="eraser"
       width="30%"
       height="30%"
       viewBox="0 0 45 46"
