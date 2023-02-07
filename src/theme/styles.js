@@ -1,15 +1,7 @@
-import reactCSS from "reactcss";
+import $ from 'jquery';
 
-export const styles = reactCSS({
-  default: {
-    righticons: {
-      border: "none",
-      width: `${window.innerWidth * 0.05}px`,
-      height: `${window.innerHeight * 0.09}px`,
-      background: "none",
-      borderRadius: "0.1%",
-      outline: "none",
-      padding: "0.5%",
-    },
-  },
+$(document).ready(function(){
+  $('.multi-button').on('click', 'button', function() {
+  $(this).addClass('btn').siblings().removeClass('btn');
+});
 });
