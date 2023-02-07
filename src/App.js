@@ -20,7 +20,7 @@ const rough = require('roughjs/bundled/rough.cjs')
   const [toolType, setToolType] = useState("pencil");
   const [selectedElement, setSelectedElement] = useState(null);
   const [colorWidth, setColorWidth] = useState({
-    hex: "#000",
+    hex: "#111",
     hsv: {},
     rgb: {},
   });
